@@ -216,8 +216,8 @@ SConscript(['common/SConscript'])
 SConscript(['common/kalman/SConscript'])
 SConscript(['phonelibs/SConscript'])
 
+SConscript(['selfdrive/camerad/SConscript'])
 if arch != "Darwin":
-  SConscript(['selfdrive/camerad/SConscript'])
   SConscript(['selfdrive/modeld/SConscript'])
 
 SConscript(['selfdrive/controls/lib/cluster/SConscript'])
